@@ -1,0 +1,15 @@
+[submodule "VRWorldToolkit"]
+	path = VRWorldToolkit
+	url = https://github.com/oneVR/VRWorldToolkit.git
+[submodule "VRCHierarchyHighlighter"]
+	path = VRCHierarchyHighlighter
+	url = https://github.com/AzuriteLab/VRCHierarchyHighlighter.git
+[submodule "UdonSharp"]
+	path = UdonSharp
+	url = https://github.com/Merlin-san/UdonSharp.git
+[submodule "VRChat-AssetMerger"]
+	path = VRChat-AssetMerger
+	url = https://github.com/mika-f/VRChat-AssetMerger.git
+[submodule "GotoUdon"]
+	path = GotoUdon
+	url = https://github.com/GotoFinal/GotoUdon.git

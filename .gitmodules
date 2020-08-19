@@ -1,12 +1,19 @@
 [submodule "VRWorldToolkit"]
 	path = VRWorldToolkit
 	url = https://github.com/oneVR/VRWorldToolkit.git
+	ignore = untracked
 [submodule "VRCHierarchyHighlighter"]
 	path = VRCHierarchyHighlighter
 	url = https://github.com/esnya/VRCHierarchyHighlighter.git
+	ignore = untracked
 [submodule "UdonSharp"]
 	path = UdonSharp
 	url = https://github.com/Merlin-san/UdonSharp.git
+	ignore = dirty
 [submodule "GotoUdon"]
-	path = GotoUdon
+	path = Disabled~/GotoUdon
 	url = https://github.com/GotoFinal/GotoUdon.git
+	ignore = untracked
+[submodule "InariUdon"]
+	path = InariUdon
+	url = https://github.com/esnya/InariUdon.git

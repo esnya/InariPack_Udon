@@ -17,3 +17,9 @@
 [submodule "InariUdon"]
 	path = InariUdon
 	url = https://github.com/esnya/InariUdon.git
+[submodule "EsnyaUnityTools"]
+	path = EsnyaUnityTools
+	url = https://github.com/esnya/EsnyaUnityTools.git
+[submodule "uRaymarching"]
+	path = uRaymarching
+	url = https://github.com/hecomi/uRaymarching.git

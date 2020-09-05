@@ -23,3 +23,6 @@
 [submodule "uRaymarching"]
 	path = uRaymarching
 	url = https://github.com/hecomi/uRaymarching.git
+[submodule "TerrainGrassShader"]
+	path = TerrainGrassShader
+	url = https://github.com/Acrosicious/TerrainGrassShader.git

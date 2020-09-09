@@ -1,7 +1,7 @@
 [submodule "VRWorldToolkit"]
 	path = VRWorldToolkit
 	url = https://github.com/oneVR/VRWorldToolkit.git
-	ignore = untracked
+	ignore = dirty
 [submodule "VRCHierarchyHighlighter"]
 	path = VRCHierarchyHighlighter
 	url = https://github.com/esnya/VRCHierarchyHighlighter.git
@@ -26,3 +26,8 @@
 [submodule "TerrainGrassShader"]
 	path = TerrainGrassShader
 	url = https://github.com/Acrosicious/TerrainGrassShader.git
+[submodule "Editor/Unity-Resource-Checker"]
+	path = Editor/Unity-Resource-Checker
+	url = https://github.com/handcircus/Unity-Resource-Checker.git
+	ignore = untracked
+

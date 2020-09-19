@@ -8,7 +8,7 @@
 	ignore = untracked
 [submodule "UdonSharp"]
 	path = UdonSharp
-	url = https://github.com/Merlin-san/UdonSharp.git
+	url = https://github.com/MerlinVR/UdonSharp.git
 	ignore = dirty
 [submodule "GotoUdon"]
 	path = Disabled~/GotoUdon

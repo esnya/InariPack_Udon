@@ -31,3 +31,6 @@
 	url = https://github.com/handcircus/Unity-Resource-Checker.git
 	ignore = untracked
 
+[submodule "USharpVideo"]
+	path = USharpVideo
+	url = https://github.com/MerlinVR/USharpVideo.git

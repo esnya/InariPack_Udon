@@ -23,6 +23,7 @@
 [submodule "uRaymarching"]
 	path = uRaymarching
 	url = https://github.com/hecomi/uRaymarching.git
+	ignore = dirty
 [submodule "TerrainGrassShader"]
 	path = TerrainGrassShader
 	url = https://github.com/Acrosicious/TerrainGrassShader.git
@@ -34,3 +35,4 @@
 [submodule "USharpVideo"]
 	path = USharpVideo
 	url = https://github.com/MerlinVR/USharpVideo.git
+	ignore = dirty

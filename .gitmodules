@@ -36,3 +36,7 @@
 	path = USharpVideo
 	url = https://github.com/MerlinVR/USharpVideo.git
 	ignore = dirty
+[submodule "MissingScriptsFinder"]
+	path = MissingScriptsFinder
+	url = https://github.com/plyoung/MissingScriptsFinder.git
+	ignore = dirty

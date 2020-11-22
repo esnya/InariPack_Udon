@@ -40,3 +40,7 @@
 	path = MissingScriptsFinder
 	url = https://github.com/plyoung/MissingScriptsFinder.git
 	ignore = dirty
+[submodule "VRC-Bakery-Adapter"]
+	path = VRC-Bakery-Adapter
+	url = https://github.com/MerlinVR/VRC-Bakery-Adapter.git
+	ignore = untracked

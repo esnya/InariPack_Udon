@@ -44,3 +44,6 @@
 	path = VRC-Bakery-Adapter
 	url = https://github.com/MerlinVR/VRC-Bakery-Adapter.git
 	ignore = untracked
+[submodule "MomomaTools"]
+	path = MomomaTools
+	url = https://github.com/momoma-null/MomomaTools.git

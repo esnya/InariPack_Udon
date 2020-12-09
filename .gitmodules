@@ -47,3 +47,19 @@
 [submodule "MomomaTools"]
 	path = MomomaTools
 	url = https://github.com/momoma-null/MomomaTools.git
+[submodule "CyanEmu"]
+	path = CyanEmu
+	url = https://github.com/CyanLaser/CyanEmu.git
+	ignore = untracked
+[submodule "clear-water"]
+	path = clear-water
+	url = https://gitlab.com/s-ilent/clear-water.git
+	ignore = untracked
+[submodule "skyprobe-fog"]
+	path = skyprobe-fog
+	url = https://gitlab.com/s-ilent/skyprobe-fog.git
+	ignore = dirty
+[submodule "UdonToolkit"]
+	path = UdonToolkit
+	url = https://github.com/orels1/UdonToolkit.git
+	ignore = dirty

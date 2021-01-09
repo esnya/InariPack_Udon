@@ -15,9 +15,11 @@ namespace EsnyaFactory
     static (string, string)[] paths = {
       ("InariPack_Udon/CyanEmu/CyanEmu/version.txt", "CyanEmu/version.txt"),
       ("InariPack_Udon/UdonSharp/Assets/UdonSharp/version.txt", "UdonSharp/version.txt"),
+      ("InariPack_Udon/UdonToolkit/Resources", "UdonToolkit/Resources"),
     };
 
-    static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
+    [MenuItem("EsnyaTools/Copy InariPack Resources")]
+    static void CopyResources()
     {
       foreach (var path in paths)
       {
@@ -27,13 +29,22 @@ namespace EsnyaFactory
         var dst = $"{Application.dataPath}/{path.Item2}";
 
         var dstDir = Path.GetDirectoryName(dst);
+
         if (!Directory.Exists(dstDir))
         {
           Directory.CreateDirectory(dstDir);
         }
 
-        File.Copy(src, dst, true);
+        if (Directory.Exists(dst)) FileUtil.ReplaceDirectory(src, dst);
+        else if (File.Exists(dst)) FileUtil.ReplaceFile(src, dst);
+        else FileUtil.CopyFileOrDirectory(src, dst);
       }
+    }
+
+    static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
+    {
+      if (importedAssets.Concat(deletedAssets).Concat(movedAssets).Concat(movedFromAssetPaths).Where(p => p.Contains("InariPack_Udon/")).FirstOrDefault() == null) return;
+      CopyResources();
     }
   }
 }

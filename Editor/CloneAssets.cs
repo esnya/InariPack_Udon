@@ -30,14 +30,17 @@ namespace EsnyaFactory
 
         var dstDir = Path.GetDirectoryName(dst);
 
-        if (!Directory.Exists(dstDir))
-        {
-          Directory.CreateDirectory(dstDir);
-        }
+        try {
+          if (!Directory.Exists(dstDir))
+          {
+            Directory.CreateDirectory(dstDir);
+          }
 
-        if (Directory.Exists(dst)) FileUtil.ReplaceDirectory(src, dst);
-        else if (File.Exists(dst)) FileUtil.ReplaceFile(src, dst);
-        else FileUtil.CopyFileOrDirectory(src, dst);
+          if (Directory.Exists(dst)) FileUtil.ReplaceDirectory(src, dst);
+          else if (File.Exists(dst)) FileUtil.ReplaceFile(src, dst);
+          else FileUtil.CopyFileOrDirectory(src, dst);
+        } catch {
+        }
       }
     }
 

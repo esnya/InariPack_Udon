@@ -31,7 +31,6 @@
 	path = Editor/Unity-Resource-Checker
 	url = https://github.com/handcircus/Unity-Resource-Checker.git
 	ignore = untracked
-
 [submodule "USharpVideo"]
 	path = USharpVideo
 	url = https://github.com/MerlinVR/USharpVideo.git
@@ -66,3 +65,4 @@
 [submodule "EasyQuestSwitch"]
 	path = EasyQuestSwitch
 	url = https://github.com/JordoVR/EasyQuestSwitch.git
+	ignore = untracked

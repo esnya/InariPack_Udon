@@ -69,3 +69,4 @@
 [submodule "vrc-mirror-proxy-area"]
 	path = vrc-mirror-proxy-area
 	url = https://gitlab.com/s-ilent/vrc-mirror-proxy-area.git
+	ignore = untracked

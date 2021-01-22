@@ -66,3 +66,6 @@
 	path = EasyQuestSwitch
 	url = https://github.com/JordoVR/EasyQuestSwitch.git
 	ignore = untracked
+[submodule "vrc-mirror-proxy-area"]
+	path = vrc-mirror-proxy-area
+	url = https://gitlab.com/s-ilent/vrc-mirror-proxy-area.git

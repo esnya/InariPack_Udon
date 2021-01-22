@@ -43,11 +43,5 @@ namespace EsnyaFactory
         }
       }
     }
-
-    static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths)
-    {
-      if (importedAssets.Concat(deletedAssets).Concat(movedAssets).Concat(movedFromAssetPaths).Where(p => p.Contains("InariPack_Udon/")).FirstOrDefault() == null) return;
-      CopyResources();
-    }
   }
 }

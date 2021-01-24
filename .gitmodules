@@ -70,3 +70,6 @@
 	path = vrc-mirror-proxy-area
 	url = https://gitlab.com/s-ilent/vrc-mirror-proxy-area.git
 	ignore = untracked
+[submodule "towelcloud"]
+	path = towelcloud
+	url = https://gitlab.com/towelfunnelvrc/towelcloud.git

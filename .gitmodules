@@ -74,3 +74,6 @@
 	path = towelcloud
 	url = https://gitlab.com/towelfunnelvrc/towelcloud.git
 	ignore = untracked
+[submodule "UdonSunController"]
+	path = UdonSunController
+	url = https://github.com/esnya/UdonSunController.git

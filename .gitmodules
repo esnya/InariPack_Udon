@@ -77,3 +77,6 @@
 [submodule "UdonSunController"]
 	path = UdonSunController
 	url = https://github.com/esnya/UdonSunController.git
+[submodule "lightmap-quality-regions"]
+	path = lightmap-quality-regions
+	url = https://gitlab.com/s-ilent/lightmap-quality-regions.git

@@ -14,6 +14,7 @@ namespace EsnyaFactory
 
     static (string, string)[] paths = {
       ("InariPack_Udon/CyanEmu/CyanEmu/version.txt", "CyanEmu/version.txt"),
+      ("InariPack_Udon/CyanEmu/CyanEmu/Resources", "CyanEmu/Resources"),
       ("InariPack_Udon/UdonSharp/Assets/UdonSharp/version.txt", "UdonSharp/version.txt"),
       ("InariPack_Udon/UdonToolkit/Resources", "UdonToolkit/Resources"),
     };

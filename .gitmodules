@@ -87,3 +87,8 @@
 [submodule "Assets/UnityGUIExtensions"]
 	path = Assets/UnityGUIExtensions
 	url = git://github.com/MrJoy/UnityGUIExtensions.git
+[submodule ".\\UdonToolkit"]
+	url = https://github.com/esnya/UdonToolkit.git
+[submodule "UdonFlat"]
+	path = UdonFlat
+	url = https://gitlab.com/lox9973/UdonFlat.git

@@ -92,3 +92,6 @@
 [submodule "UdonFlat"]
 	path = UdonFlat
 	url = https://gitlab.com/lox9973/UdonFlat.git
+[submodule "Assets/SceneRealtimeGIAutoEnable"]
+	path = Assets/SceneRealtimeGIAutoEnable
+	url = https://github.com/fotfla/SceneRealtimeGIAutoEnable.git

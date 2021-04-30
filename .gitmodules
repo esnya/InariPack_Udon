@@ -95,3 +95,4 @@
 [submodule "Assets/SceneRealtimeGIAutoEnable"]
 	path = Assets/SceneRealtimeGIAutoEnable
 	url = https://github.com/fotfla/SceneRealtimeGIAutoEnable.git
+	ignore = untracked

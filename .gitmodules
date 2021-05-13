@@ -96,3 +96,6 @@
 	path = Assets/SceneRealtimeGIAutoEnable
 	url = https://github.com/fotfla/SceneRealtimeGIAutoEnable.git
 	ignore = untracked
+[submodule "VSCode"]
+	path = VSCode
+	url = https://github.com/dotBunny/VSCode

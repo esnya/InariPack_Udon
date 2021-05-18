@@ -81,21 +81,18 @@
 	path = lightmap-quality-regions
 	url = https://gitlab.com/s-ilent/lightmap-quality-regions.git
 	ignore = untracked
-[submodule "Assets/Editor/UnityREPL"]
-	path = Assets/Editor/UnityREPL
-	url = git://github.com/MrJoy/UnityREPL.git
-[submodule "Assets/UnityGUIExtensions"]
-	path = Assets/UnityGUIExtensions
-	url = git://github.com/MrJoy/UnityGUIExtensions.git
-[submodule ".\\UdonToolkit"]
+[submodule "UdonToolkit"]
 	url = https://github.com/esnya/UdonToolkit.git
+	ignore = dirty
 [submodule "UdonFlat"]
 	path = UdonFlat
 	url = https://gitlab.com/lox9973/UdonFlat.git
-[submodule "Assets/SceneRealtimeGIAutoEnable"]
-	path = Assets/SceneRealtimeGIAutoEnable
-	url = https://github.com/fotfla/SceneRealtimeGIAutoEnable.git
 	ignore = untracked
 [submodule "VSCode"]
 	path = VSCode
 	url = https://github.com/dotBunny/VSCode
+	ignore = untracked
+[submodule "SceneRealtimeGIAutoEnable"]
+	path = SceneRealtimeGIAutoEnable
+	url = https://github.com/fotfla/SceneRealtimeGIAutoEnable.git
+	ignore = untracked

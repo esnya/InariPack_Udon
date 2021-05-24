@@ -90,7 +90,7 @@
 	ignore = untracked
 [submodule "VSCode"]
 	path = VSCode
-	url = https://github.com/dotBunny/VSCode
+	url = https://github.com/esnya/VSCode.git
 	ignore = untracked
 [submodule "SceneRealtimeGIAutoEnable"]
 	path = SceneRealtimeGIAutoEnable

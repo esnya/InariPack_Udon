@@ -95,3 +95,6 @@
 	path = SceneRealtimeGIAutoEnable
 	url = https://github.com/fotfla/SceneRealtimeGIAutoEnable.git
 	ignore = untracked
+[submodule "EsnyaUnityShaders"]
+	path = EsnyaUnityShaders
+	url = https://github.com/esnya/EsnyaUnityShaders.git

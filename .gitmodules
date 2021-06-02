@@ -8,7 +8,7 @@
 	ignore = untracked
 [submodule "UdonSharp"]
 	path = UdonSharp
-	url = https://github.com/MerlinVR/UdonSharp.git
+	url = https://github.com/mika-f/UdonSharp.git
 	ignore = dirty
 [submodule "GotoUdon"]
 	path = Disabled~/GotoUdon
@@ -98,3 +98,6 @@
 [submodule "EsnyaUnityShaders"]
 	path = EsnyaUnityShaders
 	url = https://github.com/esnya/EsnyaUnityShaders.git
+[submodule "EsnyaUnityParticles"]
+	path = EsnyaUnityParticles
+	url = https://github.com/esnya/EsnyaUnityParticles.git

@@ -81,9 +81,6 @@
 	path = lightmap-quality-regions
 	url = https://gitlab.com/s-ilent/lightmap-quality-regions.git
 	ignore = untracked
-[submodule "UdonToolkit"]
-	url = https://github.com/esnya/UdonToolkit.git
-	ignore = dirty
 [submodule "UdonFlat"]
 	path = UdonFlat
 	url = https://gitlab.com/lox9973/UdonFlat.git

@@ -1,8 +1,0 @@
-{
-    "RoslynExtensionsOptions": {
-        "EnableAnalyzersSupport": true,
-        "LocationPaths": [
-            "c:/Users/esnya/.vscode/extensions/natsuneko.udonrabbit-analyzer-0.11.5/externals"
-        ]
-    }
-}

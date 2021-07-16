@@ -98,3 +98,6 @@
 [submodule "EsnyaUnityParticles"]
 	path = EsnyaUnityParticles
 	url = https://github.com/esnya/EsnyaUnityParticles.git
+[submodule "fake-glass"]
+	path = fake-glass
+	url = https://gitlab.com/s-ilent/fake-glass.git
